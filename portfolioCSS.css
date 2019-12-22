@@ -324,15 +324,15 @@ hr{
   
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 601px) {
 
     .Packdoption {
         height: 280px;
     }
 
     .container {
-        padding-right: 2px;
-        padding-left: 2px;
+        padding: 0;
+        margin: 0;
     }
 
     .TicketManager{
@@ -341,4 +341,16 @@ hr{
     a.info{
         font-size: 14px;
     }
+
+    .projectTitle{
+        align-self: center;
+        font-weight: 400;
+        font-size: 100%;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+        text-transform: uppercase;
+    
+    }
+
+    
 }
