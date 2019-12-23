@@ -13,6 +13,16 @@
     
 }
 
+.ff2 {
+    font-size: 5px;
+}
+
+.catchIcon {
+    margin-top: 50px;
+    width: 220px;
+    height: 220px;
+    
+}
 
 .navbar:hover {
     text-decoration: none;
@@ -132,9 +142,10 @@ aboutme {
     font-weight: 900;
     align-self: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     padding: 17px;
     color: #444;
+    margin-top: 23px;
 }
 
 .fab:hover, .far:hover {
@@ -147,7 +158,7 @@ skills {
     display: grid;
     text-align: center;
    
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 2fr 1fr ;
     
 
 
@@ -310,7 +321,7 @@ hr{
     position: absolute;
     top: -2%;
     left: 8%;
-    padding: 70px;
+    padding: 40px;
   }
   
   .hovereffect:hover a.info {
@@ -336,10 +347,10 @@ hr{
     }
 
     .TicketManager{
-        height: 500px;
+        height: 370px;
     }
     a.info{
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .projectTitle{
@@ -352,5 +363,29 @@ hr{
     
     }
 
-    
+    skills{
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+
+    .contact {
+        margin-top: 13px;
+        font-size: 45px;
+    }
+
+    .fa-envelope {
+        margin-right: 18px;
+    }
+
+    .fa-github {
+        margin-left: 18px;
+    }
+
+    .catchIcon {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projectTitle{
+        font-size: 45px;
+    }
 }
